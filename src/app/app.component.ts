@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+/*   
 export class AppComponent {
   title = 'proyecto001';
   nombre = 'Rodriguez Pablo';
@@ -16,6 +17,7 @@ export class AppComponent {
   
 
   esActivo() {
+    console.log(this);
     if (this.activo)
       return 'Trabajador Activo';
     else
@@ -29,4 +31,13 @@ export class AppComponent {
     return suma;
   }
   
+}
+ */
+
+export class AppComponent {
+  nombre = 'Ivor Guzman';
+  edad = 15;
+  sueldos = [1700, 1600, 1900];
+  sitio = 'http://www.google.com';
+
 }
